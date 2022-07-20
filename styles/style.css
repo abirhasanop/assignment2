@@ -218,6 +218,9 @@ hr {
     .top_text h1{
         font-size: 22px;
     }
+    .top_text p{
+        font-size: 10px;
+    }
     .top_img{
         display: flex;
         justify-content: center;
