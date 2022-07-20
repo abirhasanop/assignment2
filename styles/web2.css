@@ -17,19 +17,17 @@ body {
 
 .top_part {
     width: 1320px;
-    /* background-color: black; */
+
     background-image: linear-gradient(#662D8C, #ED1E79);
     border-radius: 15px;
     color: white;
     display: flex;
     margin-top: 5em;
-    /* padding: 5%; */
 }
 
 .top_text {
-    /* width: 531px; */
     width: 100%;
-    padding: 5%;
+    padding-left: 5%;
 }
 
 .top_text h1 {
@@ -52,7 +50,6 @@ body {
 .btn {
     border: none;
     padding: 8px 20px;
-    /* background-color: red; */
     background-image: linear-gradient(red, tomato);
     color: white;
     font-size: 20px;
@@ -71,7 +68,6 @@ body {
 /*Section2 Starts here */
 .section2 {
     width: 100%;
-    /* height: 400px;*/
     display: flex;
     justify-content: center;
     margin-bottom: 10em;
@@ -80,11 +76,10 @@ body {
 .container {
     width: 1320px;
     display: flex;
-    /* background-color: aqua; */
+
 }
 
 .aside {
-    /* background-color: black; */
     background-image: linear-gradient(#662D8C, #ED1E79);
     width: 312px;
     height: 250px;
@@ -98,11 +93,9 @@ body {
 }
 
 .aside a {
-    /* color: black; */
     color: white;
     width: 252px;
     padding: 8px 15px;
-    /* background-color: white; */
     background-image: linear-gradient(blue, purple);
     text-decoration: none;
     font-size: 20px;
@@ -118,7 +111,6 @@ body {
 
 /*mathches strts here*/
 .matches {
-    /* margin-top: 30px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -128,7 +120,6 @@ body {
     padding: 2%;
     width: 312px;
     border-radius: 10px;
-    /* height: 300px;*/
     box-shadow: 2px 2px 12px gray;
 }
 
@@ -214,7 +205,6 @@ hr {
         text-align: center;
         padding: 0;
         margin-bottom: 30px;
-        /* margin: 0 0 30px 0; */
     }
 
     .top_text h1 {

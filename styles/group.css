@@ -10,7 +10,6 @@ body {
 
 /*Top Section Starts here */
 .top_section {
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     margin-bottom: 5em;
@@ -18,18 +17,15 @@ body {
 
 .top_part {
     width: 1320px;
-    /* background-color: black; */
     background-image: linear-gradient(#662D8C, #ED1E79);
     border-radius: 15px;
     color: white;
     display: flex;
     margin-top: 5em;
-    /* padding: 5%; */
 }
 
 .top_text {
     width: 100%;
-    /* padding: 5%; */
     padding-left: 5%;
 }
 
@@ -52,7 +48,6 @@ body {
 .btn {
     border: none;
     padding: 8px 20px;
-    /* background-color: red; */
     background-image: linear-gradient(red, tomato);
     color: white;
     font-size: 20px;
@@ -70,8 +65,6 @@ body {
 /*Section2 Starts here */
 .section2 {
     width: 100%;
-    /* background-color: aqua; */
-    /* height: 400px;*/
     display: flex;
     justify-content: center;
     margin-bottom: 5em;
@@ -80,11 +73,9 @@ body {
 .container {
     width: 1320px;
     display: flex;
-    /* background-color: aqua; */
 }
 
 .aside {
-    /* background-color: black; */
     background-image: linear-gradient(#662D8C, #ED1E79);
     width: 312px;
     height: 250px;
@@ -98,11 +89,9 @@ body {
 }
 
 .aside a {
-    /* color: black; */
     color: white;
     width: 252px;
     padding: 8px 15px;
-    /* background-color: white; */
     background-image: linear-gradient(blue, purple);
     text-decoration: none;
     font-size: 20px;
@@ -186,15 +175,12 @@ hr {
 }
 
 .social_icons {
-    /* background-color: #B9B9B9; */
-    /* margin: 0 auto; */
     display: flex;
     justify-content: center;
     margin: 30px 0;
 }
 
 .social_icons i {
-    /* background-color: azure; */
     font-size: 25px;
 }
 
