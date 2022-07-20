@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Poppins:wght@400;500&family=Quicksand:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+/*Top Section Starts here */
+.top_section {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.top_part {
+    width: 1320px;
+    /* background-color: black; */
+    background-image: linear-gradient(#662D8C, #ED1E79);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    margin-top: 5em;
+    /* padding: 5%; */
+}
+
+.top_text {
+    width: 100%;
+    /* padding: 5%; */
+    padding-left: 5%;
+}
+
+.top_text h1 {
+    font-size: 70px;
+}
+
+.top_text p {
+    font-size: 16px;
+}
+
+.top_img img {
+    width: 581px;
+    height: 631px;
+}
+
+.btn {
+    border: none;
+    padding: 8px 20px;
+    /* background-color: red; */
+    background-image: linear-gradient(red, tomato);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+/*Top Section Ends here */
+
+
+
+/*Section2 Starts here */
+.section2 {
+    width: 100%;
+    /* background-color: aqua; */
+    /* height: 400px;*/
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.container {
+    width: 1320px;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.aside {
+    /* background-color: black; */
+    background-image: linear-gradient(#662D8C, #ED1E79);
+    width: 312px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.aside a {
+    /* color: black; */
+    color: white;
+    width: 252px;
+    padding: 8px 15px;
+    /* background-color: white; */
+    background-image: linear-gradient(blue, purple);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#groups {
+    background-image: linear-gradient(red, tomato);
+    color: white;
+}
+
+.groups{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.group {
+    width: 312px;
+    border-radius: 10px;
+    /* height: 300px;*/
+    box-shadow: 2px 2px 12px gray;
+}
+.team_names{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+ol{
+    list-style-type: none;
+    /* display: none; */
+}
+.group_title{
+    text-align: center;
+}
+.team_names img{
+    height: 50px;
+    width: 50px;
+    border-radius: 70%;
+}
+.view_all_btn{
+    display: none;
+}
+
+/*section2 Ends here*/
+footer {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1320px;
+}
+
+
+
+.footer_div h1 {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B9B9B9;
+}
+
+.social_icons {
+    /* background-color: #B9B9B9; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.social_icons i {
+    /* background-color: azure; */
+    font-size: 25px;
+}
+
+.social_icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+
+
+/* Responsiveness Strts here */
+@media screen and (max-width:576px) {
+    .top_part {
+        margin-top: 0;
+        width: 100%;
+        border-radius: 0;
+        flex-direction: column;
+    }
+
+    .top_text {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .top_text h1 {
+        font-size: 22px;
+    }
+
+    .top_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top_img img {
+        width: 80%;
+        height: 300px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .groups {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+    }
+    .view_all_btn {
+        display: block;
+        margin-top: 30px;
+        }
+    
+    .view_all_btn .btn {
+        border-radius: 5px;
+    }
+
+    /* Footer parts starts here */
+    footer {
+        height: 450px;
+    }
+
+    .footer_div hr {
+        width: 90%;
+    }
+
+    .links {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /* Footer parts ends here */
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .top_part {
+        width: 85%;
+        height: 400px;
+    }
+    .top_text {
+        overflow: hidden;
+    }
+    .top_text h1 {
+        font-size: 40px;
+    }
+
+    .top_img {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .top_img img {
+        width: 323px;
+        height: 340px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aside {
+        width: 700px;
+        height: 64px;
+        flex-direction: row;
+        /* background-color: transparent; */
+        background-image: none;
+    }
+
+    .aside a {
+        border: 1px solid red;
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .groups{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
+    .view_all_btn {
+        display: block;
+        margin-top: 30px;
+        /* border-radius: 5px; */
+        }
+    
+        .view_all_btn .btn {
+        border-radius: 5px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer hr {
+        width: 80%;
+    }
+
+    .footer_div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        width: 635px;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .links a {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Responsiveness ends here */
